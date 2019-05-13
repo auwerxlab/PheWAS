@@ -17,7 +17,8 @@ Install other dependent packages `plyr`, `qtl`, `mlmm`, `intermediate`
     install.packages("qtl")
     
     library(devtools)
-    install_github("Gregor-Mendel-Institute/mlmm")
+    # install_github("Gregor-Mendel-Institute/mlmm")  # The MLMM library and repository have been renamed and moved to MultLocMixMod
+    install_github("Gregor-Mendel-Institute/MultLocMixMod")
     install_github("simecek/intermediate")
 
 ```
